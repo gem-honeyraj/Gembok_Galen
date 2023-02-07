@@ -1,0 +1,51 @@
+{
+  "testId" : "2-com.galenframework.junit.galenjunittestbase-initreport",
+  "name" : "com.galenframework.junit.GalenJUnitTestBase#>initReport",
+  "report" : {
+    "nodes" : [ {
+      "name" : "Check layout SigninPage.spec",
+      "status" : "error",
+      "time" : 1675669734630,
+      "includedTags" : [ "normal-phone", "phone", "mobile" ],
+      "excludedTags" : [ ],
+      "sections" : [ {
+        "name" : "Signin Page",
+        "place" : {
+          "filePath" : "SigninPage.spec",
+          "lineNumber" : 6
+        },
+        "objects" : [ {
+          "name" : "info-text",
+          "specs" : [ {
+            "status" : "error",
+            "place" : {
+              "filePath" : "SigninPage.spec",
+              "lineNumber" : 8
+            },
+            "name" : "text is \"Know what's happening around you\"",
+            "errors" : [ "\"info-text\" is absent on page" ],
+            "highlight" : [ ]
+          } ]
+        }, {
+          "name" : "signin-button",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "SigninPage.spec",
+              "lineNumber" : 12
+            },
+            "name" : "text is \"Sign in\"",
+            "highlight" : [ "signin-button" ]
+          } ]
+        } ]
+      } ],
+      "objects" : {
+        "signin-button" : {
+          "area" : [ 296, 423, 158, 39 ]
+        }
+      },
+      "screenshot" : "layout-2-screenshot.png",
+      "type" : "layout"
+    } ]
+  }
+}

@@ -1,0 +1,198 @@
+{
+  "testId" : "4-com.galenframework.junit.galenjunittestbase-initreport",
+  "name" : "com.galenframework.junit.GalenJUnitTestBase#>initReport",
+  "report" : {
+    "nodes" : [ {
+      "name" : "Check layout howItWorksPage.spec",
+      "status" : "error",
+      "time" : 1675232124816,
+      "includedTags" : [ "normal-phone", "phone", "mobile" ],
+      "excludedTags" : [ ],
+      "sections" : [ {
+        "name" : "Image test",
+        "place" : {
+          "filePath" : "howItWorksPage.spec",
+          "lineNumber" : 11
+        },
+        "objects" : [ {
+          "name" : "image-in-header",
+          "specs" : [ {
+            "status" : "error",
+            "place" : {
+              "filePath" : "howItWorksPage.spec",
+              "lineNumber" : 14
+            },
+            "name" : "image file src/main/Test_Images/header_image.png, error 70%",
+            "errors" : [ "Element does not look like \"src/main/Test_Images/header_image.png\". There are 87.36% mismatching pixels but max allowed is 70%" ],
+            "highlight" : [ "image-in-header" ],
+            "imageComparison" : {
+              "actualImage" : "layout-8-image-in-header-actual.png",
+              "expectedImage" : "layout-9-image-in-header-expected.png",
+              "comparisonMapImage" : "layout-10-image-in-header-map.png"
+            }
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "howItWorksPage.spec",
+              "lineNumber" : 15
+            },
+            "name" : "height 250 to 300px",
+            "errors" : [ "\"image-in-header\" height is 242px which is not in range of 250 to 300px" ],
+            "highlight" : [ "image-in-header" ]
+          } ]
+        } ]
+      }, {
+        "name" : "Header",
+        "place" : {
+          "filePath" : "howItWorksPage.spec",
+          "lineNumber" : 20
+        },
+        "objects" : [ {
+          "name" : "how-it-works-heading",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "howItWorksPage.spec",
+              "lineNumber" : 22
+            },
+            "name" : "inside first-row-container",
+            "highlight" : [ "how-it-works-heading", "first-row-container" ]
+          } ]
+        } ]
+      }, {
+        "name" : "Navigation",
+        "place" : {
+          "filePath" : "howItWorksPage.spec",
+          "lineNumber" : 24
+        },
+        "objects" : [ ],
+        "sections" : [ {
+          "name" : "all test for nav bar",
+          "place" : {
+            "filePath" : "howItWorksPage.spec",
+            "lineNumber" : 25
+          },
+          "objects" : [ {
+            "name" : "nav.logo-mob",
+            "specs" : [ {
+              "status" : "info",
+              "place" : {
+                "filePath" : "navRules.spec",
+                "lineNumber" : 16
+              },
+              "name" : "visible",
+              "highlight" : [ "nav.logo-mob" ]
+            } ]
+          }, {
+            "name" : "nav.menu-item-1",
+            "specs" : [ {
+              "status" : "info",
+              "place" : {
+                "filePath" : "navRules.spec",
+                "lineNumber" : 34
+              },
+              "name" : "absent",
+              "highlight" : [ ]
+            } ]
+          }, {
+            "name" : "nav.menu-item-2",
+            "specs" : [ {
+              "status" : "info",
+              "place" : {
+                "filePath" : "navRules.spec",
+                "lineNumber" : 34
+              },
+              "name" : "absent",
+              "highlight" : [ ]
+            } ]
+          }, {
+            "name" : "nav.menu-item-3",
+            "specs" : [ {
+              "status" : "info",
+              "place" : {
+                "filePath" : "navRules.spec",
+                "lineNumber" : 34
+              },
+              "name" : "absent",
+              "highlight" : [ ]
+            } ]
+          }, {
+            "name" : "nav.menu-item-4",
+            "specs" : [ {
+              "status" : "info",
+              "place" : {
+                "filePath" : "navRules.spec",
+                "lineNumber" : 34
+              },
+              "name" : "absent",
+              "highlight" : [ ]
+            } ]
+          }, {
+            "name" : "nav.menu-item-5",
+            "specs" : [ {
+              "status" : "info",
+              "place" : {
+                "filePath" : "navRules.spec",
+                "lineNumber" : 34
+              },
+              "name" : "absent",
+              "highlight" : [ ]
+            } ]
+          }, {
+            "name" : "nav.menu-item-6",
+            "specs" : [ {
+              "status" : "info",
+              "place" : {
+                "filePath" : "navRules.spec",
+                "lineNumber" : 34
+              },
+              "name" : "absent",
+              "highlight" : [ ]
+            } ]
+          }, {
+            "name" : "hamburger",
+            "specs" : [ {
+              "status" : "info",
+              "place" : {
+                "filePath" : "navRules.spec",
+                "lineNumber" : 39
+              },
+              "name" : "visible",
+              "highlight" : [ "hamburger" ]
+            }, {
+              "status" : "info",
+              "place" : {
+                "filePath" : "navRules.spec",
+                "lineNumber" : 40
+              },
+              "name" : "inside nav ~8px top bottom",
+              "highlight" : [ "hamburger", "nav" ]
+            } ]
+          } ]
+        } ]
+      } ],
+      "objects" : {
+        "nav" : {
+          "area" : [ 0, 0, 483, 55 ]
+        },
+        "nav.logo-mob" : {
+          "area" : [ 106, 13, 215, 29 ]
+        },
+        "first-row-container" : {
+          "area" : [ 0, 55, 483, 563 ]
+        },
+        "how-it-works-heading" : {
+          "area" : [ 12, 79, 459, 40 ]
+        },
+        "image-in-header" : {
+          "area" : [ 46, 304, 390, 242 ]
+        },
+        "hamburger" : {
+          "area" : [ 428, 8, 55, 39 ]
+        }
+      },
+      "screenshot" : "layout-7-screenshot.png",
+      "type" : "layout"
+    } ]
+  }
+}

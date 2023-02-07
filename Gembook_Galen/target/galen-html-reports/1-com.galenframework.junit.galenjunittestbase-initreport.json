@@ -1,0 +1,583 @@
+{
+  "testId" : "1-com.galenframework.junit.galenjunittestbase-initreport",
+  "name" : "com.galenframework.junit.GalenJUnitTestBase#>initReport",
+  "report" : {
+    "nodes" : [ {
+      "name" : "Check layout HomePage.spec",
+      "status" : "error",
+      "time" : 1675755045949,
+      "includedTags" : [ "normal", "desktop" ],
+      "excludedTags" : [ ],
+      "sections" : [ {
+        "name" : "Nav Rules",
+        "place" : {
+          "filePath" : "navRules.spec",
+          "lineNumber" : 15
+        },
+        "objects" : [ ],
+        "sections" : [ {
+          "name" : "all test for nav bar",
+          "place" : {
+            "filePath" : "navRules.spec",
+            "lineNumber" : 16
+          },
+          "objects" : [ {
+            "name" : "side-bar.menu-list.list-items-1",
+            "specs" : [ {
+              "status" : "info",
+              "place" : {
+                "filePath" : "navRules.spec",
+                "lineNumber" : 12
+              },
+              "name" : "above side-bar.menu-list.list-items-2",
+              "meta" : [ {
+                "from" : {
+                  "object" : "side-bar.menu-list.list-items-1",
+                  "edge" : "bottom"
+                },
+                "to" : {
+                  "object" : "side-bar.menu-list.list-items-2",
+                  "edge" : "top"
+                },
+                "expectedDistance" : ">= 0px",
+                "realDistance" : "0px"
+              } ],
+              "highlight" : [ "side-bar.menu-list.list-items-1", "side-bar.menu-list.list-items-2" ]
+            }, {
+              "status" : "info",
+              "place" : {
+                "filePath" : "navRules.spec",
+                "lineNumber" : 13
+              },
+              "name" : "inside side-bar",
+              "meta" : [ ],
+              "highlight" : [ "side-bar.menu-list.list-items-1", "side-bar" ]
+            } ]
+          }, {
+            "name" : "side-bar.menu-list.list-items-2",
+            "specs" : [ {
+              "status" : "info",
+              "place" : {
+                "filePath" : "navRules.spec",
+                "lineNumber" : 12
+              },
+              "name" : "above side-bar.menu-list.list-items-3",
+              "meta" : [ {
+                "from" : {
+                  "object" : "side-bar.menu-list.list-items-2",
+                  "edge" : "bottom"
+                },
+                "to" : {
+                  "object" : "side-bar.menu-list.list-items-3",
+                  "edge" : "top"
+                },
+                "expectedDistance" : ">= 0px",
+                "realDistance" : "0px"
+              } ],
+              "highlight" : [ "side-bar.menu-list.list-items-2", "side-bar.menu-list.list-items-3" ]
+            }, {
+              "status" : "info",
+              "place" : {
+                "filePath" : "navRules.spec",
+                "lineNumber" : 13
+              },
+              "name" : "inside side-bar",
+              "meta" : [ ],
+              "highlight" : [ "side-bar.menu-list.list-items-2", "side-bar" ]
+            } ]
+          }, {
+            "name" : "side-bar.menu-list.list-items-3",
+            "specs" : [ {
+              "status" : "info",
+              "place" : {
+                "filePath" : "navRules.spec",
+                "lineNumber" : 12
+              },
+              "name" : "above side-bar.menu-list.list-items-4",
+              "meta" : [ {
+                "from" : {
+                  "object" : "side-bar.menu-list.list-items-3",
+                  "edge" : "bottom"
+                },
+                "to" : {
+                  "object" : "side-bar.menu-list.list-items-4",
+                  "edge" : "top"
+                },
+                "expectedDistance" : ">= 0px",
+                "realDistance" : "0px"
+              } ],
+              "highlight" : [ "side-bar.menu-list.list-items-3", "side-bar.menu-list.list-items-4" ]
+            }, {
+              "status" : "info",
+              "place" : {
+                "filePath" : "navRules.spec",
+                "lineNumber" : 13
+              },
+              "name" : "inside side-bar",
+              "meta" : [ ],
+              "highlight" : [ "side-bar.menu-list.list-items-3", "side-bar" ]
+            } ]
+          }, {
+            "name" : "side-bar.menu-list.list-items-4",
+            "specs" : [ {
+              "status" : "info",
+              "place" : {
+                "filePath" : "navRules.spec",
+                "lineNumber" : 12
+              },
+              "name" : "above side-bar.menu-list.list-items-5",
+              "meta" : [ {
+                "from" : {
+                  "object" : "side-bar.menu-list.list-items-4",
+                  "edge" : "bottom"
+                },
+                "to" : {
+                  "object" : "side-bar.menu-list.list-items-5",
+                  "edge" : "top"
+                },
+                "expectedDistance" : ">= 0px",
+                "realDistance" : "0px"
+              } ],
+              "highlight" : [ "side-bar.menu-list.list-items-4", "side-bar.menu-list.list-items-5" ]
+            }, {
+              "status" : "info",
+              "place" : {
+                "filePath" : "navRules.spec",
+                "lineNumber" : 13
+              },
+              "name" : "inside side-bar",
+              "meta" : [ ],
+              "highlight" : [ "side-bar.menu-list.list-items-4", "side-bar" ]
+            } ]
+          }, {
+            "name" : "side-bar.menu-list.list-items-5",
+            "specs" : [ {
+              "status" : "info",
+              "place" : {
+                "filePath" : "navRules.spec",
+                "lineNumber" : 12
+              },
+              "name" : "above side-bar.menu-list.list-items-6",
+              "meta" : [ {
+                "from" : {
+                  "object" : "side-bar.menu-list.list-items-5",
+                  "edge" : "bottom"
+                },
+                "to" : {
+                  "object" : "side-bar.menu-list.list-items-6",
+                  "edge" : "top"
+                },
+                "expectedDistance" : ">= 0px",
+                "realDistance" : "0px"
+              } ],
+              "highlight" : [ "side-bar.menu-list.list-items-5", "side-bar.menu-list.list-items-6" ]
+            }, {
+              "status" : "info",
+              "place" : {
+                "filePath" : "navRules.spec",
+                "lineNumber" : 13
+              },
+              "name" : "inside side-bar",
+              "meta" : [ ],
+              "highlight" : [ "side-bar.menu-list.list-items-5", "side-bar" ]
+            } ]
+          }, {
+            "name" : "side-bar.menu-list.list-items-6",
+            "specs" : [ {
+              "status" : "info",
+              "place" : {
+                "filePath" : "navRules.spec",
+                "lineNumber" : 12
+              },
+              "name" : "above side-bar.menu-list.list-items-7",
+              "meta" : [ {
+                "from" : {
+                  "object" : "side-bar.menu-list.list-items-6",
+                  "edge" : "bottom"
+                },
+                "to" : {
+                  "object" : "side-bar.menu-list.list-items-7",
+                  "edge" : "top"
+                },
+                "expectedDistance" : ">= 0px",
+                "realDistance" : "0px"
+              } ],
+              "highlight" : [ "side-bar.menu-list.list-items-6", "side-bar.menu-list.list-items-7" ]
+            }, {
+              "status" : "info",
+              "place" : {
+                "filePath" : "navRules.spec",
+                "lineNumber" : 13
+              },
+              "name" : "inside side-bar",
+              "meta" : [ ],
+              "highlight" : [ "side-bar.menu-list.list-items-6", "side-bar" ]
+            } ]
+          }, {
+            "name" : "side-bar.menu-list.list-items-7",
+            "specs" : [ {
+              "status" : "info",
+              "place" : {
+                "filePath" : "navRules.spec",
+                "lineNumber" : 12
+              },
+              "name" : "above side-bar.menu-list.list-items-8",
+              "meta" : [ {
+                "from" : {
+                  "object" : "side-bar.menu-list.list-items-7",
+                  "edge" : "bottom"
+                },
+                "to" : {
+                  "object" : "side-bar.menu-list.list-items-8",
+                  "edge" : "top"
+                },
+                "expectedDistance" : ">= 0px",
+                "realDistance" : "0px"
+              } ],
+              "highlight" : [ "side-bar.menu-list.list-items-7", "side-bar.menu-list.list-items-8" ]
+            }, {
+              "status" : "info",
+              "place" : {
+                "filePath" : "navRules.spec",
+                "lineNumber" : 13
+              },
+              "name" : "inside side-bar",
+              "meta" : [ ],
+              "highlight" : [ "side-bar.menu-list.list-items-7", "side-bar" ]
+            } ]
+          }, {
+            "name" : "side-bar.menu-list.list-items-8",
+            "specs" : [ {
+              "status" : "info",
+              "place" : {
+                "filePath" : "navRules.spec",
+                "lineNumber" : 12
+              },
+              "name" : "above side-bar.menu-list.list-items-9",
+              "meta" : [ {
+                "from" : {
+                  "object" : "side-bar.menu-list.list-items-8",
+                  "edge" : "bottom"
+                },
+                "to" : {
+                  "object" : "side-bar.menu-list.list-items-9",
+                  "edge" : "top"
+                },
+                "expectedDistance" : ">= 0px",
+                "realDistance" : "0px"
+              } ],
+              "highlight" : [ "side-bar.menu-list.list-items-8", "side-bar.menu-list.list-items-9" ]
+            }, {
+              "status" : "info",
+              "place" : {
+                "filePath" : "navRules.spec",
+                "lineNumber" : 13
+              },
+              "name" : "inside side-bar",
+              "meta" : [ ],
+              "highlight" : [ "side-bar.menu-list.list-items-8", "side-bar" ]
+            } ]
+          }, {
+            "name" : "side-bar.menu-list.list-items-9",
+            "specs" : [ {
+              "status" : "info",
+              "place" : {
+                "filePath" : "navRules.spec",
+                "lineNumber" : 12
+              },
+              "name" : "above side-bar.menu-list.list-items-10",
+              "meta" : [ {
+                "from" : {
+                  "object" : "side-bar.menu-list.list-items-9",
+                  "edge" : "bottom"
+                },
+                "to" : {
+                  "object" : "side-bar.menu-list.list-items-10",
+                  "edge" : "top"
+                },
+                "expectedDistance" : ">= 0px",
+                "realDistance" : "0px"
+              } ],
+              "highlight" : [ "side-bar.menu-list.list-items-9", "side-bar.menu-list.list-items-10" ]
+            }, {
+              "status" : "info",
+              "place" : {
+                "filePath" : "navRules.spec",
+                "lineNumber" : 13
+              },
+              "name" : "inside side-bar",
+              "meta" : [ ],
+              "highlight" : [ "side-bar.menu-list.list-items-9", "side-bar" ]
+            } ]
+          }, {
+            "name" : "side-bar.menu-list.list-items-10",
+            "specs" : [ {
+              "status" : "info",
+              "place" : {
+                "filePath" : "navRules.spec",
+                "lineNumber" : 12
+              },
+              "name" : "above side-bar.menu-list.list-items-11",
+              "meta" : [ {
+                "from" : {
+                  "object" : "side-bar.menu-list.list-items-10",
+                  "edge" : "bottom"
+                },
+                "to" : {
+                  "object" : "side-bar.menu-list.list-items-11",
+                  "edge" : "top"
+                },
+                "expectedDistance" : ">= 0px",
+                "realDistance" : "0px"
+              } ],
+              "highlight" : [ "side-bar.menu-list.list-items-10", "side-bar.menu-list.list-items-11" ]
+            }, {
+              "status" : "info",
+              "place" : {
+                "filePath" : "navRules.spec",
+                "lineNumber" : 13
+              },
+              "name" : "inside side-bar",
+              "meta" : [ ],
+              "highlight" : [ "side-bar.menu-list.list-items-10", "side-bar" ]
+            } ]
+          }, {
+            "name" : "side-bar.menu-list.list-items-11",
+            "specs" : [ {
+              "status" : "info",
+              "place" : {
+                "filePath" : "navRules.spec",
+                "lineNumber" : 12
+              },
+              "name" : "above side-bar.menu-list.list-items-12",
+              "meta" : [ {
+                "from" : {
+                  "object" : "side-bar.menu-list.list-items-11",
+                  "edge" : "bottom"
+                },
+                "to" : {
+                  "object" : "side-bar.menu-list.list-items-12",
+                  "edge" : "top"
+                },
+                "expectedDistance" : ">= 0px",
+                "realDistance" : "0px"
+              } ],
+              "highlight" : [ "side-bar.menu-list.list-items-11", "side-bar.menu-list.list-items-12" ]
+            }, {
+              "status" : "info",
+              "place" : {
+                "filePath" : "navRules.spec",
+                "lineNumber" : 13
+              },
+              "name" : "inside side-bar",
+              "meta" : [ ],
+              "highlight" : [ "side-bar.menu-list.list-items-11", "side-bar" ]
+            } ]
+          }, {
+            "name" : "side-bar.menu-list.list-items-12",
+            "specs" : [ {
+              "status" : "info",
+              "place" : {
+                "filePath" : "navRules.spec",
+                "lineNumber" : 12
+              },
+              "name" : "above side-bar.menu-list.list-items-13",
+              "meta" : [ {
+                "from" : {
+                  "object" : "side-bar.menu-list.list-items-12",
+                  "edge" : "bottom"
+                },
+                "to" : {
+                  "object" : "side-bar.menu-list.list-items-13",
+                  "edge" : "top"
+                },
+                "expectedDistance" : ">= 0px",
+                "realDistance" : "0px"
+              } ],
+              "highlight" : [ "side-bar.menu-list.list-items-12", "side-bar.menu-list.list-items-13" ]
+            }, {
+              "status" : "info",
+              "place" : {
+                "filePath" : "navRules.spec",
+                "lineNumber" : 13
+              },
+              "name" : "inside side-bar",
+              "meta" : [ ],
+              "highlight" : [ "side-bar.menu-list.list-items-12", "side-bar" ]
+            } ]
+          } ]
+        } ]
+      }, {
+        "name" : "Main",
+        "place" : {
+          "filePath" : "HomePage.spec",
+          "lineNumber" : 14
+        },
+        "objects" : [ {
+          "name" : "event-card",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "HomePage.spec",
+              "lineNumber" : 17
+            },
+            "name" : "aligned vertically all event-card",
+            "highlight" : [ "event-card", "event-card" ]
+          } ]
+        }, {
+          "name" : "awards-card",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "HomePage.spec",
+              "lineNumber" : 17
+            },
+            "name" : "aligned vertically all event-card",
+            "highlight" : [ "awards-card", "event-card" ]
+          } ]
+        }, {
+          "name" : "birthday-card",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "HomePage.spec",
+              "lineNumber" : 17
+            },
+            "name" : "aligned vertically all event-card",
+            "highlight" : [ "birthday-card", "event-card" ]
+          } ]
+        }, {
+          "name" : "anniversary-card",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "HomePage.spec",
+              "lineNumber" : 17
+            },
+            "name" : "aligned vertically all event-card",
+            "highlight" : [ "anniversary-card", "event-card" ]
+          } ]
+        }, {
+          "name" : "new-member-card",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "HomePage.spec",
+              "lineNumber" : 17
+            },
+            "name" : "aligned vertically all event-card",
+            "highlight" : [ "new-member-card", "event-card" ]
+          } ]
+        }, {
+          "name" : "write-post-block",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "HomePage.spec",
+              "lineNumber" : 20
+            },
+            "name" : "height ~128px",
+            "meta" : [ {
+              "from" : {
+                "object" : "write-post-block",
+                "edge" : "top"
+              },
+              "to" : {
+                "object" : "write-post-block",
+                "edge" : "bottom"
+              },
+              "expectedDistance" : "126 to 130px",
+              "realDistance" : "128px"
+            } ],
+            "highlight" : [ "write-post-block" ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "HomePage.spec",
+              "lineNumber" : 21
+            },
+            "name" : "width   ~738px",
+            "errors" : [ "\"write-post-block\" width is 691px which is not in range of 736 to 740px" ],
+            "meta" : [ {
+              "from" : {
+                "object" : "write-post-block",
+                "edge" : "left"
+              },
+              "to" : {
+                "object" : "write-post-block",
+                "edge" : "right"
+              },
+              "expectedDistance" : "736 to 740px",
+              "realDistance" : "691px"
+            } ],
+            "highlight" : [ "write-post-block" ]
+          } ]
+        } ]
+      } ],
+      "objects" : {
+        "event-card" : {
+          "area" : [ 1029, 87, 351, 147 ]
+        },
+        "side-bar" : {
+          "area" : [ 0, 0, 279, 947 ]
+        },
+        "side-bar.menu-list.list-items-9" : {
+          "area" : [ 20, 397, 251, 38 ]
+        },
+        "write-post-block" : {
+          "area" : [ 311, 87, 691, 128 ]
+        },
+        "birthday-card" : {
+          "area" : [ 1029, 393, 351, 256 ]
+        },
+        "anniversary-card" : {
+          "area" : [ 1029, 663, 351, 256 ]
+        },
+        "awards-card" : {
+          "area" : [ 1029, 248, 351, 131 ]
+        },
+        "side-bar.menu-list.list-items-10" : {
+          "area" : [ 20, 435, 251, 38 ]
+        },
+        "side-bar.menu-list.list-items-11" : {
+          "area" : [ 20, 473, 251, 38 ]
+        },
+        "side-bar.menu-list.list-items-12" : {
+          "area" : [ 20, 511, 251, 38 ]
+        },
+        "new-member-card" : {
+          "area" : [ 1029, 933, 351, 114 ]
+        },
+        "side-bar.menu-list.list-items-13" : {
+          "area" : [ 20, 549, 251, 38 ]
+        },
+        "side-bar.menu-list.list-items-3" : {
+          "area" : [ 0, 169, 279, 38 ]
+        },
+        "side-bar.menu-list.list-items-4" : {
+          "area" : [ 20, 207, 251, 38 ]
+        },
+        "side-bar.menu-list.list-items-1" : {
+          "area" : [ 0, 93, 279, 38 ]
+        },
+        "side-bar.menu-list.list-items-2" : {
+          "area" : [ 0, 131, 279, 38 ]
+        },
+        "side-bar.menu-list.list-items-7" : {
+          "area" : [ 20, 321, 251, 38 ]
+        },
+        "side-bar.menu-list.list-items-8" : {
+          "area" : [ 20, 359, 251, 38 ]
+        },
+        "side-bar.menu-list.list-items-5" : {
+          "area" : [ 20, 245, 251, 38 ]
+        },
+        "side-bar.menu-list.list-items-6" : {
+          "area" : [ 20, 283, 251, 38 ]
+        }
+      },
+      "screenshot" : "layout-1-screenshot.png",
+      "type" : "layout"
+    } ]
+  }
+}

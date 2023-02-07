@@ -1,0 +1,562 @@
+<html>
+    <head>
+        <title>Galen Reports</title>
+        <meta charset="utf-8" />
+        <link rel="stylesheet" type="text/css" href="report.css"></link>
+        <script src="jquery-1.11.2.min.js"></script>
+        <script src="handlebars-v2.0.0.js"></script>
+        <script src="galen-report.js"></script>
+        <script>
+var reportData = {
+  "testId" : "3-com.galenframework.junit.galenjunittestbase-initreport",
+  "name" : "com.galenframework.junit.GalenJUnitTestBase#>initReport",
+  "report" : {
+    "nodes" : [ {
+      "name" : "Check layout HomePage.spec",
+      "status" : "error",
+      "time" : 1675232120233,
+      "includedTags" : [ "normal-phone", "phone", "mobile" ],
+      "excludedTags" : [ ],
+      "sections" : [ {
+        "name" : "Navigation",
+        "place" : {
+          "filePath" : "HomePage.spec",
+          "lineNumber" : 27
+        },
+        "objects" : [ {
+          "name" : "nav.logo-mob",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "HomePage.spec",
+              "lineNumber" : 34
+            },
+            "name" : "visible",
+            "highlight" : [ "nav.logo-mob" ]
+          } ]
+        }, {
+          "name" : "nav.menu-item-1",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "HomePage.spec",
+              "lineNumber" : 52
+            },
+            "name" : "absent",
+            "highlight" : [ ]
+          } ]
+        }, {
+          "name" : "nav.menu-item-2",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "HomePage.spec",
+              "lineNumber" : 52
+            },
+            "name" : "absent",
+            "highlight" : [ ]
+          } ]
+        }, {
+          "name" : "nav.menu-item-3",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "HomePage.spec",
+              "lineNumber" : 52
+            },
+            "name" : "absent",
+            "highlight" : [ ]
+          } ]
+        }, {
+          "name" : "nav.menu-item-4",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "HomePage.spec",
+              "lineNumber" : 52
+            },
+            "name" : "absent",
+            "highlight" : [ ]
+          } ]
+        }, {
+          "name" : "nav.menu-item-5",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "HomePage.spec",
+              "lineNumber" : 52
+            },
+            "name" : "absent",
+            "highlight" : [ ]
+          } ]
+        }, {
+          "name" : "nav.menu-item-6",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "HomePage.spec",
+              "lineNumber" : 52
+            },
+            "name" : "absent",
+            "highlight" : [ ]
+          } ]
+        }, {
+          "name" : "hamburger",
+          "specs" : [ {
+            "status" : "error",
+            "place" : {
+              "filePath" : "HomePage.spec",
+              "lineNumber" : 57
+            },
+            "name" : "absent",
+            "errors" : [ "\"hamburger\" is not absent on page" ],
+            "highlight" : [ "hamburger" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "HomePage.spec",
+              "lineNumber" : 58
+            },
+            "name" : "inside nav ~8px top bottom",
+            "highlight" : [ "hamburger", "nav" ]
+          } ]
+        } ]
+      }, {
+        "name" : "Header",
+        "place" : {
+          "filePath" : "HomePage.spec",
+          "lineNumber" : 62
+        },
+        "objects" : [ {
+          "name" : "header-area",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "HomePage.spec",
+              "lineNumber" : 64
+            },
+            "name" : "below nav 20 to 25px",
+            "highlight" : [ "header-area", "nav" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "HomePage.spec",
+              "lineNumber" : 65
+            },
+            "name" : "centered horizontally inside screen",
+            "highlight" : [ "header-area", "screen" ]
+          } ]
+        }, {
+          "name" : "header-area.img-txt",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "HomePage.spec",
+              "lineNumber" : 72
+            },
+            "name" : "near header-area.img-pic 163px top",
+            "highlight" : [ "header-area.img-txt", "header-area.img-pic" ]
+          } ]
+        }, {
+          "name" : "header-area.img-button",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "HomePage.spec",
+              "lineNumber" : 76
+            },
+            "name" : "visible",
+            "highlight" : [ "header-area.img-button" ]
+          } ]
+        }, {
+          "name" : "header-area.img-button.logo-1",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "HomePage.spec",
+              "lineNumber" : 76
+            },
+            "name" : "visible",
+            "highlight" : [ "header-area.img-button.logo-1" ]
+          } ]
+        }, {
+          "name" : "header-area.img-button.logo-2",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "HomePage.spec",
+              "lineNumber" : 76
+            },
+            "name" : "visible",
+            "highlight" : [ "header-area.img-button.logo-2" ]
+          } ]
+        }, {
+          "name" : "header-area.img-button.logo-3",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "HomePage.spec",
+              "lineNumber" : 76
+            },
+            "name" : "visible",
+            "highlight" : [ "header-area.img-button.logo-3" ]
+          } ]
+        } ]
+      }, {
+        "name" : "Body",
+        "place" : {
+          "filePath" : "HomePage.spec",
+          "lineNumber" : 78
+        },
+        "objects" : [ {
+          "name" : "whatIs",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "HomePage.spec",
+              "lineNumber" : 81
+            },
+            "name" : "width 100 % of viewport/width",
+            "highlight" : [ "whatIs" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "HomePage.spec",
+              "lineNumber" : 82
+            },
+            "name" : "css color is \"rgba(33, 37, 41, 1)\"",
+            "highlight" : [ "whatIs" ]
+          } ]
+        }, {
+          "name" : "whatIs.heading-whatis",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "HomePage.spec",
+              "lineNumber" : 84
+            },
+            "name" : "text is \"What Is GemEcosystem ?\"",
+            "highlight" : [ "whatIs.heading-whatis" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "HomePage.spec",
+              "lineNumber" : 85
+            },
+            "name" : "centered horizontally inside whatIs",
+            "highlight" : [ "whatIs.heading-whatis", "whatIs" ]
+          } ]
+        }, {
+          "name" : "whatIs.heading-whatis-about-us",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "HomePage.spec",
+              "lineNumber" : 88
+            },
+            "name" : "text lowercase is \"about us\"",
+            "highlight" : [ "whatIs.heading-whatis-about-us" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "HomePage.spec",
+              "lineNumber" : 89
+            },
+            "name" : "below whatIs.heading-whatis",
+            "highlight" : [ "whatIs.heading-whatis-about-us", "whatIs.heading-whatis" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "HomePage.spec",
+              "lineNumber" : 90
+            },
+            "name" : "centered horizontally inside whatIs",
+            "highlight" : [ "whatIs.heading-whatis-about-us", "whatIs" ]
+          } ]
+        } ]
+      } ],
+      "objects" : {
+        "whatIs.heading-whatis-about-us" : {
+          "area" : [ 0, 923, 483, 18 ]
+        },
+        "nav" : {
+          "area" : [ 0, 0, 483, 55 ]
+        },
+        "nav.logo-mob" : {
+          "area" : [ 106, 13, 215, 29 ]
+        },
+        "header-area" : {
+          "area" : [ 0, 79, 483, 721 ]
+        },
+        "header-area.img-button" : {
+          "area" : [ 12, 350, 459, 67 ]
+        },
+        "screen" : {
+          "area" : [ 0, 0, 483, 9004 ]
+        },
+        "header-area.img-txt" : {
+          "area" : [ 12, 127, 459, 223 ]
+        },
+        "hamburger" : {
+          "area" : [ 428, 8, 55, 39 ]
+        },
+        "header-area.img-pic" : {
+          "area" : [ 46, 513, 390, 212 ]
+        },
+        "whatIs.heading-whatis" : {
+          "area" : [ 21, 873, 441, 48 ]
+        },
+        "whatIs" : {
+          "area" : [ 0, 872, 483, 2169 ]
+        },
+        "header-area.img-button.logo-2" : {
+          "area" : [ 217, 350, 48, 67 ]
+        },
+        "header-area.img-button.logo-1" : {
+          "area" : [ 64, 350, 48, 67 ]
+        },
+        "header-area.img-button.logo-3" : {
+          "area" : [ 370, 350, 48, 67 ]
+        }
+      },
+      "screenshot" : "layout-6-screenshot.png",
+      "type" : "layout"
+    } ]
+  }
+};
+        </script>
+        <script>
+
+            $(function () {
+                var galenReport = createGalenReport();
+                galenReport.render("main", reportData);
+            });
+        </script>
+    </head>
+    <body>
+        <script id="report-tpl" type="text/x-handlebars-template">
+            <ul class="report-nodes">
+            {{#each report.nodes}}
+                {{renderNode this}}
+            {{/each}}
+            </ul>
+        </script>
+        <script id="report-node-tpl" type="text/x-handlebars-template">
+            <li>
+                <span class="report-time">{{formatReportTime time}}</span>
+                <a class="expand-link node-expand-button node-status-{{status}} contains-children-{{hasChildElements nodes}} collapsed" href="#">{{status}}</a>
+                <div class="node-name node-status-{{status}}">{{name}}</div>
+                {{#if extras}}
+                    {{renderNodeExtras extras}}
+                {{/if}}
+                {{#if stacktrace}}
+                    <div class="stacktrace">{{stacktrace}}</div>
+                {{/if}}
+                {{#if attachments}}
+                    <ul class="report-node-attachments">
+                        {{#each attachments}}
+                            <li>
+                                <a class="icon-sprite-before node-attachment" href="{{this}}">{{this}}</a>
+                            </li>
+                        {{/each}}
+                    </ul>
+                {{/if}}
+                <div class="node-details expand-container">
+                    {{#if nodes}}
+                        <ul class="report-nodes">
+                            {{#each nodes}}
+                                {{renderNode this}}
+                            {{/each}}
+                        </ul>
+                    {{/if}}
+                </div>
+            </li>
+        </script>
+        <script id="report-node-text-tpl" type="text/x-handlebars-template">
+            <li>
+                <div class="node-simple-text">
+                    {{name}}
+                </div>
+            </li>
+        </script>
+        <script id="report-layout-tpl" type="text/x-handlebars-template">
+            <li>
+                <span class="report-time">{{formatReportTime time}}</span>
+                <a class="expand-link node-expand-button node-status-label node-status-info contains-children-true collapsed" href="#">LAYOUT</a>
+                <div class="node-name">{{name}}</div>
+                <div class="node-horizontal-menu" data-layout-id="{{layoutId}}"><a class="layout-heatmap-link" href="#">Heat Map</a></div>
+                <div class="node-details expand-container">
+                    {{renderSublayout this}}
+                </div>
+            </li>
+        </script>
+        <script id="report-layout-sublayout-tpl" type="text/x-handlebars-template">
+            <div class="layout-report" data-layout-id="{{layoutId}}" {{#if screenshot}}data-screenshot="{{screenshot}}"{{/if}}>
+                <ul class="layout-sections">
+                    {{#each sections}}
+                        {{renderLayoutSection this}}
+                    {{/each}}
+                </ul>
+            </div>
+        </script>
+        <script id="report-layout-section-tpl" type="text/x-handlebars-template">
+            <li>
+                <a class="layout-section icon-sprite-before expand-link contains-children-true" href="#" title="{{place.filePath}}#{{place.lineNumber}}">{{name}}</a>
+                <div class="layout-details expand-container">
+                    {{#if sections}}
+                        <ul class="layout-sections">
+                        {{#each sections}}
+                            {{renderLayoutSection this}}
+                        {{/each}}
+                        </ul>
+                    {{/if}}
+                    {{#if objects}}
+                        <ul class="layout-objects">
+                            {{#each objects}}
+                                {{renderLayoutObject this}}
+                            {{/each}}
+                        </ul>
+                    {{/if}}
+                </div>
+            </li>
+        </script>
+
+        <script id="report-layout-object-tpl" type="text/x-handlebars-template">
+            <li>
+                <a class="layout-object icon-sprite-before expand-link contains-children-true" href="#">{{name}}</a>
+                <ul class="layout-checks expand-container">
+                    {{#each specs}}
+                        {{renderLayoutCheck this}}
+                    {{/each}}
+                    {{#each specGroups}}
+                    <li>
+                        <a class="layout-specgroup icon-sprite-before expand-link contains-children-true" href="#">{{name}}</a>
+                        <ul class="layout-checks expand-container">
+                            {{#each specs}}
+                                {{renderLayoutCheck this}}
+                            {{/each}}
+                        </ul>
+                    </li>
+                    {{/each}}
+                </ul>
+            </li>
+        </script>
+        <script id="report-layout-check-tpl" type="text/x-handlebars-template">
+            <li>
+            <a class="layout-check icon-sprite-before layout-check-status-{{status}}" href="#"
+                data-highlight-objects="{{commaSeparated highlight}}"
+                title="{{place.filePath}}#{{place.lineNumber}}"
+                >{{name}}</a>
+
+                {{#if errors}}
+                    <div class="layout-check-error-message">
+                        {{#if imageComparison}}
+                        <a class="image-comparison-link"
+                            data-actual-image="{{imageComparison.actualImage}}"
+                            data-expected-image="{{imageComparison.expectedImage}}"
+                            data-map-image="{{imageComparison.comparisonMapImage}}"
+                            href="#">Show image comparison</a>
+                        {{/if}}
+                        <div class="layout-check-error-message-text">
+                            <ul>
+                            {{#each errors}}
+                                <li>{{this}}</li>
+                            {{/each}}
+                        </ul>
+                    </div>
+                </div>
+                {{/if}}
+
+                {{#if subLayout}}
+                {{renderSublayout subLayout}}
+                {{/if}}
+            </li>
+        </script>
+        <script id="screenshot-popup-tpl" type="text/x-handlebars-template">
+            <div class="screenshot-canvas">
+                {{#if screenshot}}
+                <img src="{{screenshot}}"/>
+                {{else}}
+                <div class="empty-screenshot" style="width: {{width}}; height: {{height}};"></div>
+                {{/if}}
+                {{#each objects}}
+                <div class="canvas-rect" style="left: {{area.left}}px; top: {{area.top}}px; width: {{area.width}}px; height: {{area.height}}px; {{#if drawBorder}}border-color: {{color}};{{else}}border:none;{{/if}}{{#if fillBackground}}background: {{color}};{{else}}background:none;{{/if}}">
+                    <div class="canvas-rect-wrapper">
+                        <div class="canvas-rect-hint" style="background: {{color}};">{{name}}</div>
+                    </div>
+                </div>
+                {{/each}}
+            </div>
+        </script>
+        <script id="image-comparison-tpl" type="text/x-handlebars-template">
+            <div class="image-comparison image-comparison-layout-{{layout}}">
+                <div class="actual-image">
+                    <h5>Actual</h5>
+                    <img src="{{actual}}"/>
+                </div>
+
+                <div class="expected-image">
+                    <h5>Expected</h5>
+                    <img src="{{expected}}"/>
+                </div>
+
+                <div class="comparison-map">
+                    <h5>Comparison map</h5>
+                    <img src="{{map}}"/>
+                </div>
+            </div>
+        </script>
+        <script id="node-extras-tpl" type="text/x-handlebars-template">
+            <div class="node-extras">
+                <a class="node-extras" href="#">extras</a>
+                <div class="node-extras-content">
+                    <table class="node-extras-table">
+                        <tbody>
+                        {{#each this}}
+                        <tr>
+                            <td><label>{{@key}}</label></td>
+                            {{#ifCond type 'text'}}
+                            <td>{{value}}</td>
+                            {{/ifCond}}
+                            {{#ifCond type 'link'}}
+                            <td><a href="{{value}}">{{value}}</a></td>
+                            {{/ifCond}}
+                            {{#ifCond type 'image'}}
+                            <td><a href="{{value}}"><img src="{{value}}"/></a></td>
+                            {{/ifCond}}
+                        </tr>
+                        {{/each}}
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </script>
+
+
+
+        <div id="menu">
+            <ul>
+                <li><a href="report.html">Back to Test Overview</a></li>
+                <li><a class="menu-op-expand-all" href="#">Expand All</a></li>
+                <li><a class="menu-op-collapse-all" href="#">Collapse All</a></li>
+                <li><a class="menu-op-expand-errors" href="#">Expand Errors</a></li>
+            </ul>
+        </div>
+        <h2>com.galenframework.junit.GalenJUnitTestBase#>initReport</h2>
+        <div id="main"></div>
+        <div id="screen-shadow"></div>
+        <div id="popup" class="popup">
+            <div class="popup-wrapper">
+                <a class="popup-close-link" href="#">close</a>
+                <div class="popup-content"></div>
+            </div>
+        </div>
+        <div id="notification" class="notification">
+            <div class="notification-wrapper">
+                <a class="notification-close-link" href="#">close</a>
+                <div class="notification-summary"></div>
+                <div class="notification-message"></div>
+            </div>
+        </div>
+    </body>
+</html>
